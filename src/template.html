@@ -94,7 +94,7 @@
       </div>
     </section>
     <!-- /END About Section -->
-
+    
     <!-- **** Projects Section **** -->
     <section id="projects">
       <div class="container">
@@ -102,37 +102,39 @@
           <h2 class="section-title dark-blue-text">
             Projects
           </h2>
-
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">NYPD Complaints Navigator</h3>
+                <h3 class="project-wrapper__text-title">College Debt Forecast</h3>
                 <div>
                   <p class="mb-4">
-                    NYPD Complaints Navigator is a data visualization "dashboard" application, that enables users to filter and analyze data regarding civilian complaints against members of the NYPD, including 12,000 complaints and over 30,000 allegations. My project partner and I used Pandas and Numpy for data wrangling and analysis, the Plotly Graphing Library to generate interactive visualizations, and Google Geolocation API to populate our dataframes with geographic data for map visualizations. We used the Dash Components to build the user interface including interactive input and visualization toggling features. Finally, we styled the app using the Dash Bootstrap Components library and deployed NYPD Complaints Navigator using Heroku.
+                    U.S. accumulated college debt reached $1.6 trillion in 2020. Students need to know what to expect and and machine learning can provide a forecast they can rely on. The College Debt Forecast app provides a sleek and user friendly interface, enabling users to get an accurate prediction of student debt with just a few clicks.
+                    <!-- Guests can chat while listening to share realtime reactions.  -->
+                    I Built this app using python, Django REST Framework, and the Federal College Scorecard data API. I used Pandas and Numpy for data wrangling and analysis of a dataset containing student debt data for 10s of thousands of vocational schools and colleges. I leveraged Scikit Learn machine learning library to build a random forest regression model with 0.74 R-Squared score which was then integrated with the application backend. I built the application user interface using React.js, Material UI, and JavaScript and deployed the application using Heroku.
+
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://nypdcomplaintsnavigator.herokuapp.com/">
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://collegedebtforecast.herokuapp.com/">
                   See Live
                 </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/CTP2020-Data4Good/NYPD">
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/YasmineCodes/StudentDebt">
                   Source Code
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12" style="margin-top: 80px;">
-              <div class="project-wrapper__image">
-                <a href="https://nypdcomplaintsnavigator.herokuapp.com/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/NYPDComplaintsNavigator.gif" />
+            <div class="col-lg-8 col-sm-12" style="margin-top: 50px;">
+              <div class="project-wrapper__image" >
+                <a href="https://collegedebtforecast.herokuapp.com/" target="_blank">
+                  <div data-tilt class="thumbnail rounded" >
+                    <img class="img-fluid"  src="./assets/college_debt_forecast.gif" />
                   </div>
                 </a>
               </div>
             </div>
           </div>
           <!-- /END Project -->
-
+         
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -164,6 +166,37 @@
             </div>
           </div>
           <!-- /END Project -->
+
+           <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">NYPD Complaints Navigator</h3>
+                <div>
+                  <p class="mb-4">
+                    NYPD Complaints Navigator is a data visualization "dashboard" application, that enables users to filter and analyze data regarding civilian complaints against members of the NYPD, including 12,000 complaints and over 30,000 allegations. My project partner and I used Pandas and Numpy for data wrangling and analysis, the Plotly Graphing Library to generate interactive visualizations, and Google Geolocation API to populate our dataframes with geographic data for map visualizations. We used the Dash Components to build the user interface including interactive input and visualization toggling features. Finally, we styled the app using the Dash Bootstrap Components library and deployed NYPD Complaints Navigator using Heroku.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="https://nypdcomplaintsnavigator.herokuapp.com/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/CTP2020-Data4Good/NYPD">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12" style="margin-top: 80px;">
+              <div class="project-wrapper__image">
+                <a href="https://nypdcomplaintsnavigator.herokuapp.com/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/NYPDComplaintsNavigator.gif" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+          
         </div>
       </div>
     </section>
